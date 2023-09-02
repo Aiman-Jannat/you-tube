@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .active{
+            background-color: #FF1F3D;
+            color: white;
+            border-radius: 5px;
+            padding: 5px;
+            padding-left:12px;
+            padding-right:12px;
+        }
+        .inActive{
+            background-color: rgb(215, 213, 213);
+            color: black;
+            border-radius: 5px;
+            padding: 5px;
+            padding-left:15px;
+            padding-right:15px;
+        }
+    </style>
+    <title>PH tube</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.6.4/dist/full.css" rel="stylesheet" type="text/css" />
+<script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+<body>
+    <nav class=" my-7">
+        <div class="grid grid-cols-1 md:grid-cols-3 px-10 gap-3  mb-5 "   >
+            <div class="text-center md:ms-0 md:text-left">
+              <img class=" w-44 mx-auto md:w-fit" src="images/Logo.png" alt="">
+            </div>
+            <div class="text-center ">
+              <button class="btn btn-active   normal-case text-xl">Sort by view </button>
+            </div>
+            <div class="text-center md:me-0 md:text-right">
+             
+              <button class="btn btn-error    rounded-md text-white bg-[#FF1F3D] ">
+                Blog
+              </button>
+            </div>
+          </div>
+          <hr class="mx-10" >
+    </nav>
+    <main>
+
+        <div id="tabs" class="tabs tabs-boxed bg-white flex px-10  mb-5 justify-center gap-8 mb-7">
+            
+            
+          </div>
+
+
+        <div id="cards" class=" grid grid-cols-1 md:grid-cols-3 
+        lg:grid-cols-4  px-10 gap-3">
+            
+
+        </div>
+
+        <div id="nothing" class="flex w-full mx-auto text-center mt-20  flex-col items-center justify-center ">
+            
+        </div>
+    </main>
+
+
+<script src="index.js"></script>
+</body>
+</html>
